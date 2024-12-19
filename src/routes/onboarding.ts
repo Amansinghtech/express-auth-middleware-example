@@ -55,4 +55,10 @@ router.post('/login', async (req, res) => {
 	})
 })
 
+router.post('/login2', async (req, res) => {
+	res.status(200).send({
+		message: 'returning success message',
+	})
+})
+
 export default router
